@@ -1,0 +1,390 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+.view {
+    display: none;
+}
+
+.firsthead {
+    background-color: #C05A4B;
+    color: white;
+    height: 32px;
+    text-align: center;
+}
+
+.firsthead p {
+    padding-top: 7px;
+    font-size: 15px;
+}
+
+.secondhead {
+    background-color: #F6F4EE;
+    color: #565553;
+    display: flex;
+    height: 80px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondhead img {
+    height: 60px;
+    cursor: pointer;
+}
+
+.icons i {
+    padding: 0px 5px;
+    cursor: pointer;
+    font-size: larger;
+}
+
+.navbar {
+    background-color: #160E46;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul {
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul li {
+    list-style: none;
+    padding: 0px 13px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    padding: 2px 0px;
+    color: white;
+}
+
+.navbar ul li a:hover {
+    border-bottom: 1px solid white;
+}
+
+/* main section */
+.main-section {
+    height: 100%;
+    width: 100%;
+}
+
+.slider {
+    height: 100%;
+    width: 100%;
+}
+
+.slider img {
+    width: 100%;
+}
+
+.second-sec {
+    background-color: #D9E0D2;
+    padding: 30px 50px;
+}
+
+.second-one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image-section {
+    width: 20vw;
+    overflow: hidden;
+}
+
+.details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: -5px;
+    background-color: #FFFFFF;
+    flex-direction: column;
+}
+
+.image-section img {
+    height: 400px;
+    width: 20vw;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.second-sec h1 {
+    color: #69522E;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.details h3 {
+    color: #69522E;
+    padding: 10px 0px;
+}
+
+.details p {
+    color: rgb(109, 3, 3);
+}
+
+.details button {
+    padding: 15px 60px;
+    color: #69522E;
+    border: none;
+    background-color: #D9E0D2;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.details i {
+    display: none;
+}
+
+.details button:hover {
+    background-color: #b4b8b1;
+    transition: all 0.8s ease-in-out;
+}
+
+
+.third-sec {
+    padding: 30px 50px;
+}
+
+.third-sec h1 {
+    color: #69522E;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.third-one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.third-one img {
+    height: 500px;
+}
+
+.next-sec {
+    background-color: #C25A4A;
+    color: white;
+    height: 20vh;
+    width: 100%;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3px;
+}
+
+.next-sec p {
+    width: 45%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.next-sec button {
+    padding: 20px 40px;
+    color: white;
+    background-color: #160E46;
+    border-radius: 30px;
+    border: 2px solid white;
+}
+
+
+.fourth-sec {
+    height: 100%;
+    width: 100%;
+}
+
+.fourth-sec img {
+    height: auto;
+    width: 100%;
+}
+
+.fifth-sec {
+    height: 100%;
+    width: 100%;
+}
+
+.fifth-sec img {
+    height: auto;
+    width: 100%;
+}
+
+
+.six-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #D9E0D2;
+    flex-direction: column;
+    width: 100%;
+}
+
+.six-sec h1 {
+    color: #69522E;
+    margin: 20px 0px;
+    font-size: 40px;
+}
+
+.six-one {
+    width: auto;
+    height: 30vh;
+    overflow: scroll;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.six-two {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    margin: 20px 0px;
+    overflow: hidden;
+    align-items: center;
+}
+
+.six-two img {
+    height: 60vh;
+    width: auto;
+    background-position: center;
+}
+
+.six-p {
+    display: flex;
+    height: 60vh;
+    width: 30vw;
+    background-color: white;
+    flex-direction: column;
+    color: black;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.six-p h2 {
+    width: 60%;
+    font-size: large;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.six-p p {
+    text-align: center;
+}
+
+/* footer section */
+
+.foot-one {
+    background-color: #988265;
+    height: 100%;
+    width: 100%;
+}
+
+.foot-one img {
+    height: 250px;
+    margin-bottom: -20vh;
+}
+
+.second-foot {
+    background-color: #C05A4B;
+    height: 100%;
+    padding-top: 13vh;
+}
+
+.foot-panel2 {
+    color: white;
+    display: flex;
+    padding-top: 50px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 12px;
+    color: white;
+    text-decoration: none;
+}
+
+.foot-panel2 ul p {
+    font-weight: bolder;
+}
+
+.icon {
+    display: flex;
+    margin-top: 30px;
+}
+
+.icon i {
+    padding: 15px;
+    border: 0.05rem solid white;
+}
+
+.icon i:hover {
+    background-color: white;
+    color: #C05A4B;
+    transition: all 0.5s ease-in-out;
+}
+
+.last-foot {
+    margin: 20px 0px;
+    font-size: 0.85rem;
+}
+
+.foot-mail input {
+    border: none;
+    height: 30px;
+    padding-left: 20px;
+    background-color: transparent;
+    color: white;
+}
+
+.foot-mail {
+    height: 40px;
+    margin: 20px 0px;
+    display: flex;
+    color: white;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+}
+
+.foot-mail i {
+    padding-right: 10px;
+}
